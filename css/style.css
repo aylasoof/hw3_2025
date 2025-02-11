@@ -25,7 +25,6 @@ nav a:hover, nav a:focus{
 
 *:focus{
      border: solid 2px black;
-
 }
 
 /* Step 4: Write selector/rule property to style the container */
@@ -41,7 +40,7 @@ first div in the grid  and place it in the grid. */
 
 .container > *:first-child {
      grid-column: 1 / -1;
-     background-image: url("images/header.jpg");
+     background-image: url("/images/header.jpg");
      background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
@@ -94,7 +93,10 @@ first div in the grid  and place it in the grid. */
      align-content: center;
      text-align: center;
      margin: auto;
+     overflow: auto;
 }
+
+
 
 /* Add your media query here */
 
